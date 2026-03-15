@@ -42,4 +42,6 @@ At the time of writing this, only two personas have been created. However, the t
 ## References
 
 OpenAI. (2026). AI-generated persona image created using ChatGPT [AI-generated image]. https://chat.openai.com/
+Aizen Anime Digital Art Fantasy Illustration Free PNG. (2023, July 25). PNG All -. https://www.pngall.com/aizen-png/download/129223/
+
 
