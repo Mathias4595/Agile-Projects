@@ -45,4 +45,9 @@ OpenAI. (2026). AI-generated persona image created using ChatGPT [AI-generated i
 
 Aizen Anime Digital Art Fantasy Illustration Free PNG. (2023, July 25). PNG All -. https://www.pngall.com/aizen-png/download/129223/
 
+Group, C. (2019). Astute Consulting Group LLC - Astute Consulting Group LLC. Astuteconsultinggroup.com. https://share.google/TQA3HND7S8h5pwkq6
+
+‌
+
+
 
