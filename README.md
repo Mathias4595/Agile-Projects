@@ -18,7 +18,7 @@ The meeting reports can be found in the `/Meeting Reports` folder in this reposi
 
 | Stakeholder Name | Title | Role | Power | Interest | Requirements | Communication |
 |-----------------|------|------|------|------|-------------|---------------|
-| Mathias Charles Hansen | Developer | System development and coding | High | Low | System must function correctly and meet project requirements | Weekly team meetings / group chat |
+| Mathias Hansen | Developer | System development and coding | High | Low | System must function correctly and meet project requirements | Weekly team meetings / group chat |
 | Nitin Nitin | CEO | Project sponsor and decision maker | High | High | Website should support business goals and provide good user experience | Email / progress meetings |
 | Olivia Cherry | UX Designer | Interface and user experience design | Low | High | Interface must be simple, clear and easy for users to navigate | Team meetings / group chat |
 | MD Ilful Hossain | Project Manager | Organising tasks and tracking project progress | High | High | Ensure the project is completed on time and tasks are coordinated | Weekly meetings |
