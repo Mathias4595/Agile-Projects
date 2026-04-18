@@ -8,9 +8,10 @@ Iteration 2 focuses on project planning, including creating the Gantt chart, ass
 
 ## Repository Structure
 
-- `/Meeting reports` - Weekly group Meeting documentation
-- `/Personas` - Persona templates and persona files
+- `/Meeting Reports` - Weekly group Meeting documentation
+- `/Personas templates` - Persona templates and persona files
 - `/Stakeholder Register` - Stakeholder register documentation
+- `/GANTT Chart` - Gantt chart planning and screenshots
 
 ## Group Meeting Reports
 
@@ -35,6 +36,9 @@ During Iteration 2, the group focused on project planning, including the Gantt c
 A draft Gantt chart was created and uploaded to the repository and the stakeholder register was updated based on these tasks.
 
 The team also improved collaboration by updating the GitHub repository and reviewing uploaded files.
+
+## Gantt chart
+A Gantt chart was created to plan and organise project tasks including tasks requirments, start dates, end dates and assigned team members. This helps the group manage deadlines and track progress during Iteration 2.
 
 ## Stakeholder Register
 
