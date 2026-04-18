@@ -53,6 +53,17 @@ A Gantt chart was created to plan and organise project tasks including tasks req
 
 ## Iteration 2
 
+| **Task Name** | **Stakeholder Name** | **Title** | **Power (H/L)** | **Interest (H/L)** | **Requirements** | **Communication** |
+|---|---|---|---|---|---|---|
+| Scope | MD Ilful Hossain | Project Manager | H | H | Project scope must be clearly defined and agreed by all team members | Weekly meetings |
+| User Requirements | MD Ilful Hossain | Project Manager | H | H | All user requirements must be gathered and documented before design begins | Weekly meetings |
+| Stakeholder Concerns | Nitin | CEO | H | H | Websites should support business goals and provide good user experience | Email / Progress meetings |
+| Final Approval | Nitin | CEO | H | H | All planning documents must be approved before design phase begins | Email / Progress meetings |
+| Layout | Olivia Cherry | UX Designer | L | H | Interface must be simple, clear and easy for users to navigate | Team meetings / group chat |
+| Design Wireframes | Olivia Cherry | UX Designer | L | H | Wireframes must reflect user personas and be reviewed by the full group | Team meetings / group chat |
+| User Testing on Wireframes | Mathias Hansen | Developer | H | L | System must function correctly and wireframes must be technically feasible | Weekly team meetings / group chat |
+| Confirming Designs | Nitin | CEO | H | H | Final designs must be approved by CEO before development begins | Email / Progress meetings |
+
 
 ## User Personas
 
