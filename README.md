@@ -8,7 +8,7 @@ Iteration 2 focuses on project planning, including creating the Gantt chart, ass
 
 ## Repository Structure
 
-- [Meeting Reports](Meeting%Reports/) - Weekly group Meeting documentation
+- [Meeting Reports](Meeting%Reports) - Weekly group Meeting documentation
 - [Personas templates](persona%20templates/) - Persona templates and persona files
 - [Stakeholder Register](Stakeholder%20register.docx) - Stakeholder register documentation
 - [GANTT Chart](GANTT%20Chart/) - Gantt chart planning and screenshots
