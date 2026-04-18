@@ -17,7 +17,7 @@ Iteration 2 focuses on project planning, including creating the Gantt chart, ass
 
 Weekly meeting reports for Iteration 1 are recorded using the Group Meeting Report template.
 
-The meeting reports can be found in the `/Meeting Reports` folder in this repository.
+The meeting reports can be found in the [Meeting Reports](./Meeting%20Reports) folder in this repository.
 
 ## Meeting summary
 
@@ -53,7 +53,7 @@ A Gantt chart was created to plan and organise project tasks including tasks req
 
 Three personas were created to represent different types of users who may use the e-commerce website.
 
-Full persona documents and images are available in the `/Personas` folder of this repository.
+Full persona documents and images are available in the [Personas templates](persona%20templates/) folder of this repository.
 
 ## Persona Review
 
