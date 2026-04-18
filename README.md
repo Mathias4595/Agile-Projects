@@ -1,4 +1,4 @@
-# E-Commerce Website Project – Iteration 1
+# E-Commerce Website Project – Iteration 1 & 2
 
 This repository contains the documentation and planning work for the development of our e-commerce website. Iteration 1 focuses on identifying stakeholders, creating user personas, and organising project tasks using GitHub.
 
@@ -13,6 +13,24 @@ This repository contains the documentation and planning work for the development
 Weekly meeting reports for Iteration 1 are recorded using the Group Meeting Report template.
 
 The meeting reports can be found in the `/Meeting Reports` folder in this repository.
+
+## Meeting summary
+
+### Iteration 1
+
+During Iteration 1, the group focused on understanding the project requirements and organising initial tasks. This included assigning roles, completing the stakeholder register and creating user personas.
+
+Key stakeholders were identified and their roles, power and communication methods were defined. Three personas were developed to represent different types of users and guide design decisions.
+
+All documents were uploaded to the GitHub repository and organised for submission. 
+
+### Iteration 2
+
+During Iteration 2, the group focused on project planning, including the Gantt chart, assigning tasks and identifying resources requirements.
+
+A draft Gantt chart was created and uploaded to the repository and the stakeholder register was updated based on these tasks.
+
+The team also improved collaboration by updating the GitHub repository and reviewing uploaded files.
 
 ## Stakeholder Register
 
@@ -37,7 +55,7 @@ First impressions:
 We can see that users expect a website that is simple to use, fast and easy to navigate. For example, Sarah Wilson represents a busy customer who wants to quickly find products and place an order without confusion. Aizen on the other hand represents a more design focused user who may value the look and feel of the website.
 
 Final impressions:
-At the time of writing this, only two personas have been created. However, the two we currently have represent realistic types of coffee shop customers. These personas show important design considerations such as clear menus, quick and easy ordering, easy navigation and a mobile friendly experience. The personas will help guide the design and usability of the coffee shop website as we continue.
+All three personas represent realistic types of customers and highlight important design considerations, such as clear menus, quick and easy ordering, intuitive navigation and a mobile friendly experience. Three personas will help guide the design and usability of the website as development continues.
 
 ## References
 
