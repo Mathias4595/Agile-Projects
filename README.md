@@ -53,7 +53,7 @@ A Gantt chart was created to plan and organise project tasks including tasks req
 
 ## Iteration 2
 
-![Gantt Screenshot](Agile-Projects\images\GanttScreenshot.png)
+![Gantt Screenshot](https://github.com/Mathias4595/Agile-Projects/blob/test-branch/images/GanttScreenshot.png)
 
 Included above is a screenshot of a GANTT chart for the first two stages of the project, planning and designing, and the timeline they are expected to be completed along, with a role table included below.
 
