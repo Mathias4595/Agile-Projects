@@ -53,6 +53,10 @@ A Gantt chart was created to plan and organise project tasks including tasks req
 
 ## Iteration 2
 
+![Chart Screenshot](https://github.com/Mathias4595/Agile-Projects/blob/main/images/GanttScreenshot.png)
+
+Included above is a screenshot of a Gantt chart with the first two stages of the project in place, planning and designing, with a role table included below.
+
 | **Task Name** | **Stakeholder Name** | **Title** | **Power (H/L)** | **Interest (H/L)** | **Requirements** | **Communication** |
 |---|---|---|---|---|---|---|
 | Scope | MD Ilful Hossain | Project Manager | H | H | Project scope must be clearly defined and agreed by all team members | Weekly meetings |
