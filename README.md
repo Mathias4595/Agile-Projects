@@ -40,6 +40,10 @@ The team also improved collaboration by updating the GitHub repository and revie
 ## Gantt chart
 A Gantt chart was created to plan and organise project tasks including tasks requirments, start dates, end dates and assigned team members. This helps the group manage deadlines and track progress during Iteration 2.
 
+![Chart Screenshot](https://github.com/Mathias4595/Agile-Projects/blob/main/images/GanttScreenshot.png)
+
+Included above is a screenshot of a Gantt chart with the first two stages of the project in place, planning and designing, with a role table included below.
+
 ## Stakeholder Register
 
 ## Iteration 1
@@ -52,10 +56,6 @@ A Gantt chart was created to plan and organise project tasks including tasks req
 | MD Ilful Hossain | Project Manager | Organising tasks and tracking project progress | High | High | Ensure the project is completed on time and tasks are coordinated | Weekly meetings |
 
 ## Iteration 2
-
-![Chart Screenshot](https://github.com/Mathias4595/Agile-Projects/blob/main/images/GanttScreenshot.png)
-
-Included above is a screenshot of a Gantt chart with the first two stages of the project in place, planning and designing, with a role table included below.
 
 | **Task Name** | **Stakeholder Name** | **Title** | **Power (H/L)** | **Interest (H/L)** | **Requirements** | **Communication** |
 |---|---|---|---|---|---|---|
