@@ -71,6 +71,9 @@ Included above is a screenshot of a Gantt chart with the first two stages of the
 
 ## Resource Requirement List
 
+### Overview
+The project team determined resource needs according to the Gantt chart which showed the tasks required during the planning and design phases. The team requires additional staff members to perform three specific tasks which include requirement gathering and stakeholder analysis and testing activities. The website design and development process needs technical resources which include laptops and design tools and development software. Free tools such as GitHub and VS Code help reduce overall project costs, while hardware and team effort contribute to the main expenses.
+
 
 | Task Code | Deliverable / Description | Resource Name | Amount Required | Cost (NZD) |
 |:---------:|---------------------------|---------------|:---------------:|:----------:|
