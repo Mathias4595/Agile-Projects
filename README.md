@@ -72,6 +72,24 @@ Included above is a screenshot of a Gantt chart with the first two stages of the
 ## Resource Requirement List
 
 
+| Task Code | Deliverable / Description | Resource Name | Amount Required | Cost (NZD) |
+|:---------:|---------------------------|---------------|:---------------:|:----------:|
+| **1** | **Planning – Prepare Meeting** | | | |
+| 1 | Planning – prepare meeting | Team members meeting (workshop) | 5 hours | $150 |
+| 1.1 | Scope | Team members | 5 hours | $150 |
+| 1.2 | User Requirements | Team members | 7 hours | $210 |
+| 1.3 | Stakeholder concerns | Team members | 7 hours | $210 |
+| 1.4 | Final Approval | Team / Supervisor | 1 hour | $50 |
+| **2** | **Design a Website** | | | |
+| 2 | Design a website | Laptop | 2 laptops | $1,000 |
+| 2.1 | Layout | Design tools | 5 hours | $100 |
+| 2.2 | Design Wireframes | Laptop usage | 8 hours | $200 |
+| 2.3 | Design Wireframes | VS Code | 8 hours | $80 |
+| 2.4 | User Testing on Wireframes | Web browser | 3 hours | $30 |
+| 2.5 | User Testing on Wireframes | Team members | 3 hours | $90 |
+| 2.6 | Confirming Designs | Team / Stakeholders | 1 hour | $50 |
+| | **TOTAL PROJECT COST** | | | **$2,320 NZD** |
+
 ## User Personas
 
 Three personas were created to represent different types of users who may use the e-commerce website.
