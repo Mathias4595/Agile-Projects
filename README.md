@@ -69,6 +69,9 @@ Included above is a screenshot of a Gantt chart with the first two stages of the
 | Confirming Designs | Nitin | CEO | H | H | Final designs must be approved by CEO before development begins | Email / Progress meetings |
 
 
+## Resource Requirement List
+
+
 ## User Personas
 
 Three personas were created to represent different types of users who may use the e-commerce website.
