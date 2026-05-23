@@ -379,12 +379,24 @@ a:focus {
 }
 
 .shop_section .box {
-  background-color: #faf9fa;
+  background-color: #ffffff;
   position: relative;
-  padding: 10px 15px;
+  padding: 15px;
   margin-top: 25px;
-  border-radius: 15px;
+  border-radius: 24px;
   overflow: hidden;
+  border: 1px solid rgba(59, 74, 107, 0.08);
+  -webkit-box-shadow: 0 20px 40px rgba(59, 74, 107, 0.08);
+          box-shadow: 0 20px 40px rgba(59, 74, 107, 0.08);
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.shop_section .box:hover {
+  -webkit-transform: translateY(-6px);
+          transform: translateY(-6px);
+  -webkit-box-shadow: 0 28px 55px rgba(59, 74, 107, 0.14);
+          box-shadow: 0 28px 55px rgba(59, 74, 107, 0.14);
 }
 
 .shop_section .box a {
@@ -402,7 +414,9 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   padding: 0px;
-  height: 245px;
+  height: 280px;
+  border-radius: 18px;
+  overflow: hidden;
 }
 
 .shop_section .box .img-box img {
@@ -418,20 +432,33 @@ a:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 16px;
+  gap: 10px;
+}
+
+.shop_section .box .detail-box h6 {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 700;
 }
 
 .shop_section .box .detail-box h6 span {
   color: #3b4a6b;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .shop_section .box .new {
-  padding: 7px 15px;
+  padding: 8px 18px;
   position: absolute;
-  top: 0;
-  left: 0;
+  top: 18px;
+  left: 18px;
   background-color: #f0d43a;
-  color: #ffffff;
+  color: #111111;
+  border-radius: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -441,7 +468,8 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-size: 15px;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .shop_section .btn-box {
