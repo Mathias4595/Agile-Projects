@@ -93,193 +93,167 @@
     <div class="container">
       <div class="heading_container heading_center">
         <h2>
-          Popular Items
+          Our Menu
         </h2>
       </div>
-      <div class="row">
-        <div class="col-md-6 ">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/c5.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Iced Latte
-                </h6>
-                <h6>
-                  Price:
-                  <span>
-                    $6.50
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  Featured
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/c12.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Mocha
-                </h6>
-                <h6>
-                  Price:
-                  <span>
-                    $6.20
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/c12.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Flat White
-                </h6>
-                <h6>
-                  Price:
-                  <span>
-                    $5.50
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/c14.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Croissant
-                </h6>
-                <h6>
-                  Price:
-                  <span>
-                    $4.50
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/c15.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Blueberry Muffin
-                </h6>
-                <h6>
-                  Price:
-                  <span>
-                    $4.50
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6  col-xl-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/c12.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Caramel Frappe
-                </h6>
-                <h6>
-                  Price:
-                  <span>
-                    $7.00
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
-          </div>
-        </div>
-        <div class="col-sm-6 col-xl-3">
-          <div class="box">
-            <a href="">
-              <div class="img-box">
-                <img src="images/c12.jpg" alt="">
-              </div>
-              <div class="detail-box">
-                <h6>
-                  Hot Chocolate
-                </h6>
-                <h6>
-                  Price:
-                  <span>
-                    $5.00
-                  </span>
-                </h6>
-              </div>
-              <div class="new">
-                <span>
-                  New
-                </span>
-              </div>
-            </a>
+
+      <!-- Hero / CTA -->
+      <div class="row mb-4">
+        <div class="col-md-8 offset-md-2 text-center">
+          <div class="p-4 bg-light rounded">
+            <h3 class="mb-2">Freshly brewed — every day</h3>
+            <p class="mb-3">Discover our curated selection of coffees and baked treats. Order for pickup or delivery.</p>
+            <a href="orders.html" class="btn btn-primary">Order Now</a>
           </div>
         </div>
       </div>
-      <div class="btn-box">
-        <a href="">
-          View All
-        </a>
+
+      <!-- search / filters (UI only) -->
+      <div class="row mb-3 align-items-center">
+        <div class="col-md-4 mb-2">
+          <input id="productSearch" class="form-control" placeholder="Search products..." />
+        </div>
+        <div class="col-md-4 mb-2">
+          <select id="sortSelect" class="form-control">
+            <option value="">Sort by</option>
+            <option value="price-asc">Price: Low &uarr;</option>
+            <option value="price-desc">Price: High &darr;</option>
+          </select>
+        </div>
+        <div class="col-md-4 text-right mb-2">
+          <a href="#" class="btn btn-link">View All</a>
+        </div>
+      </div>
+
+      <!-- product grid -->
+      <div class="row" id="productGrid">
+        <!-- Card template - repeat / static examples -->
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="box h-100">
+            <div class="img-box text-center">
+              <img src="images/c5.jpg" alt="Iced Latte" loading="lazy" class="img-fluid">
+            </div>
+            <div class="detail-box text-center p-2">
+              <h6 class="product-title mb-1">Iced Latte</h6>
+              <div class="price mb-2">Price: <span>$6.50</span></div>
+              <button class="btn btn-sm btn-primary quick-view">Quick view</button>
+            </div>
+            <div class="new">
+              <span>Featured</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="box h-100">
+            <div class="img-box text-center">
+              <img src="images/c12.jpg" alt="Mocha" loading="lazy" class="img-fluid">
+            </div>
+            <div class="detail-box text-center p-2">
+              <h6 class="product-title mb-1">Mocha</h6>
+              <div class="price mb-2">Price: <span>$6.20</span></div>
+              <button class="btn btn-sm btn-primary quick-view">Quick view</button>
+            </div>
+            <div class="new"><span>New</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="box h-100">
+            <div class="img-box text-center">
+              <img src="images/c14.jpg" alt="Croissant" loading="lazy" class="img-fluid">
+            </div>
+            <div class="detail-box text-center p-2">
+              <h6 class="product-title mb-1">Croissant</h6>
+              <div class="price mb-2">Price: <span>$4.50</span></div>
+              <button class="btn btn-sm btn-primary quick-view">Quick view</button>
+            </div>
+            <div class="new"><span>New</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="box h-100">
+            <div class="img-box text-center">
+              <img src="images/c15.jpg" alt="Blueberry Muffin" loading="lazy" class="img-fluid">
+            </div>
+            <div class="detail-box text-center p-2">
+              <h6 class="product-title mb-1">Blueberry Muffin</h6>
+              <div class="price mb-2">Price: <span>$4.50</span></div>
+              <button class="btn btn-sm btn-primary quick-view">Quick view</button>
+            </div>
+            <div class="new"><span>New</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="box h-100">
+            <div class="img-box text-center">
+              <img src="images/c12.jpg" alt="Flat White" loading="lazy" class="img-fluid">
+            </div>
+            <div class="detail-box text-center p-2">
+              <h6 class="product-title mb-1">Flat White</h6>
+              <div class="price mb-2">Price: <span>$5.50</span></div>
+              <button class="btn btn-sm btn-primary quick-view">Quick view</button>
+            </div>
+            <div class="new"><span>New</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="box h-100">
+            <div class="img-box text-center">
+              <img src="images/c12.jpg" alt="Caramel Frappe" loading="lazy" class="img-fluid">
+            </div>
+            <div class="detail-box text-center p-2">
+              <h6 class="product-title mb-1">Caramel Frappe</h6>
+              <div class="price mb-2">Price: <span>$7.00</span></div>
+              <button class="btn btn-sm btn-primary quick-view">Quick view</button>
+            </div>
+            <div class="new"><span>New</span></div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3 mb-4">
+          <div class="box h-100">
+            <div class="img-box text-center">
+              <img src="images/c12.jpg" alt="Hot Chocolate" loading="lazy" class="img-fluid">
+            </div>
+            <div class="detail-box text-center p-2">
+              <h6 class="product-title mb-1">Hot Chocolate</h6>
+              <div class="price mb-2">Price: <span>$5.00</span></div>
+              <button class="btn btn-sm btn-primary quick-view">Quick view</button>
+            </div>
+            <div class="new"><span>New</span></div>
+          </div>
+        </div>
+
       </div>
     </div>
   </section>
+
+  <!-- Quick view modal -->
+  <div class="modal fade" id="quickViewModal" tabindex="-1" role="dialog" aria-labelledby="quickViewLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="quickViewLabel">Product</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="" alt="" class="modal-image img-fluid mb-3" style="max-height:300px;">
+          <p class="modal-price h5"></p>
+          <p class="modal-desc text-muted">Delicious and freshly prepared.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <a href="orders.html" class="btn btn-primary">Order</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- end shop section -->
 

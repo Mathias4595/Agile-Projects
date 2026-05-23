@@ -30,6 +30,20 @@ $(".client_owl-carousel").owlCarousel({
     }
 });
 
+// Quick view modal: populate and show
+$(document).on('click', '.quick-view', function(e) {
+    e.preventDefault();
+    var card = $(this).closest('.box');
+    var title = card.find('.product-title').text().trim();
+    var price = card.find('.price span').text().trim();
+    var img = card.find('.img-box img').attr('src');
+
+    $('#quickViewModal .modal-title').text(title);
+    $('#quickViewModal .modal-price').text(price);
+    $('#quickViewModal .modal-image').attr('src', img);
+    $('#quickViewModal').modal('show');
+});
+
 /** google_map js **/
 
 function myMap() {
