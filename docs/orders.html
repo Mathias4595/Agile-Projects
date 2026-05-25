@@ -13,42 +13,14 @@
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
-  <title>Timups</title>
-<style> 
-
-// colors
-$red:    #C62931; // hsl(357, 66%, 47%)
-$blue:   #49AED0; // hsl(195, 59%, 55%)
-$link-blue:   hsl(215, 60%, 50%);
-$green:  #00A362; // hsl(156, 100%, 32%)
-$orange: #EC9532; // hsl(32, 83%, 56%)
-$yellow: #F5D847; // hsl(50, 90%, 62%)
-
-// shades
-$black:    #111822; // hsl(215,32%,10%)
-$carbon:   #222C3A; // hsl(215,26%,18%)
-$charcoal: #354050; // hsl(215,20%,26%)
-$pebble:   #79879A; // hsl(215,14%,54%)  pebble
-$gray:     #A2ABB9; // hsl(215,14%,68%)  pale-sky / gull-gray
-$cloud:    #D0D5DC; // hsl(215,14%,84%)  mischka / black-85
-$fog:      #F0F2F5; // hsl(215,20%,95%)  smoke
-$snow:     #F9FAFB; // hsl(215,26%,98%)  silver
-$white:    #FFFFFF; // hsl(215,32%,100%)
-
-// social colors
-$facebook: #3b5998;
-$twitter: #00b6f1;
-
+  <title>Bean Haven</title>
+<style>
 .list-group {
-  border-color: $cloud !important;
-  .list-group-item {
-    border-color: $cloud !important;
-  }
+  border-color: #D0D5DC !important;
 }
-
-// *, input, body, a, h1,h2,h3,h4,h5,h6, p {
-//   font-family: "Avenir", arial, sans-serif;
-// }
+.list-group .list-group-item {
+  border-color: #D0D5DC !important;
+}
 
 h1,h2,h3,h4,h5,h6 {
   font-weight: 500 !important;
@@ -57,121 +29,113 @@ h1,h2,h3,h4,h5,h6 {
 a.account-card {
   text-decoration: none;
   color: unset;
-  i.fa {
-    font-size: 42px;
-    width: 45px;
-  }
-  .card {
-    background: $snow;
-    border: 1px solid $cloud;
-    &:hover {
-      background: $white;
-    }
-    &:active {
-      background: $fog;
-    }
-  }
+}
+a.account-card i.fa {
+  font-size: 42px;
+  width: 45px;
+}
+a.account-card .card {
+  background: #F9FAFB;
+  border: 1px solid #D0D5DC;
+}
+a.account-card .card:hover {
+  background: #FFFFFF;
+}
+a.account-card .card:active {
+  background: #F0F2F5;
 }
 
 .bg-yellow {
-  background: $yellow;
-  color: $carbon;
+  background: #F5D847;
+  color: #222C3A;
 }
 
 .list-group-item-action {
-  background: $snow;
-  .fa {
-    width: 22px;
-  }
-  .fa.fa-angle-right {
-    font-size: 20px;
-    position: absolute;
-    right: 5px;
-    top: 14px;
-  }
+  background: #F9FAFB;
+}
+.list-group-item-action .fa {
+  width: 22px;
+}
+.list-group-item-action .fa.fa-angle-right {
+  font-size: 20px;
+  position: absolute;
+  right: 5px;
+  top: 14px;
 }
 
 .coupon {
-  background: $snow;
-  border: 2px dashed $cloud !important;
+  background: #F9FAFB;
+  border: 2px dashed #D0D5DC !important;
 }
 
 .reward-status-box {
   position: relative;
   width: 100%;
-  color: $white;
-  background: darken(saturate($blue, 15%), 15%);
-  border: 2px solid saturate($blue, 15%);
+  color: #FFFFFF;
+  background: #2F94BE;
+  border: 2px solid #2F94BE;
   border-radius: 5px;
-  .reward-status {
-    width: 60%;
-    background: saturate($blue, 15%);
-    padding: 15px;
-  }
-  .current-status {
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    color: $white;
-  }
-  .current-status-2 {
-    position: absolute;
-    right: 15px;
-    top: 41px;
-    color: $white;
-  }
+}
+.reward-status-box .reward-status {
+  width: 60%;
+  background: #49AED0;
+  padding: 15px;
+}
+.reward-status-box .current-status,
+.reward-status-box .current-status-2 {
+  position: absolute;
+  right: 15px;
+  color: #FFFFFF;
+}
+.reward-status-box .current-status {
+  top: 15px;
+}
+.reward-status-box .current-status-2 {
+  top: 41px;
 }
 
-
-
-// Utilities
-
 .text-orange {
-  color: $orange !important;
+  color: #EC9532 !important;
 }
 
 .text-carbon {
-  color: $carbon !important;
+  color: #222C3A !important;
 }
 
 .text-pebble {
-  color: $pebble !important;
+  color: #79879A !important;
 }
 
 .text-gray {
-  color: $gray !important;
+  color: #A2ABB9 !important;
 }
 
 .text-cloud {
-  color: $cloud !important;
+  color: #D0D5DC !important;
 }
 
 .text-blue {
-  color: $blue !important;
-}
-
-.text-gray {
-  color: $gray !important;
+  color: #49AED0 !important;
 }
 
 .text-pale-sky {
-  color: $gray !important;
+  color: #A2ABB9 !important;
 }
 
 .bg-black {
-  background: $black !important;
+  background: #111822 !important;
 }
 
 .bg-snow {
-  background: $snow !important;
+  background: #F9FAFB !important;
 }
 
 .bg-fog {
-  background: $fog !important;
+  background: #F0F2F5 !important;
 }
 
 .bb1-cloud {
-  border-bottom: 1px solid $cloud;
+  border-bottom: 1px solid #D0D5DC;
 }
 
 .fs-14 {
@@ -182,68 +146,66 @@ a.account-card {
   font-size: 22px !important;
 }
 
-.tanga-header {
-  .navbar-brand {
-    margin-bottom: 5px;
-  }
-  .nav-link {
-    color: $gray;
-    &:hover {
-      color: $white;
-    }
-    &:active {
-      color: $gray;
-    }
-  }
+.tanga-header .navbar-brand {
+  margin-bottom: 5px;
+}
+.tanga-header .nav-link {
+  color: #A2ABB9;
+}
+.tanga-header .nav-link:hover {
+  color: #FFFFFF;
+}
+.tanga-header .nav-link:active {
+  color: #A2ABB9;
 }
 
 .tanga-navbar {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: -ms-autohiding-scrollbar;
-  &:-webkit-scrollbar {
-    display: none;
-  }
-  .nav-link {
-    white-space: nowrap;
-    color: $pebble;
-    &:hover {
-      color: $charcoal;
-    }
-    &:active {
-      color: $pebble;
-    }
-  }
+}
+.tanga-navbar::-webkit-scrollbar {
+  display: none;
+}
+.tanga-navbar .nav-link {
+  white-space: nowrap;
+  color: #79879A;
+}
+.tanga-navbar .nav-link:hover {
+  color: #354050;
+}
+.tanga-navbar .nav-link:active {
+  color: #79879A;
 }
 
 .btn-primary {
-  background: $red;
-  border-color: $red;
+  background: #C62931;
+  border-color: #C62931;
   cursor: pointer;
-  &:hover {
-    background: lighten($red, 10%);
-    border-color: lighten($red, 10%);
-  }
+}
+.btn-primary:hover {
+  background: #D64444;
+  border-color: #D64444;
 }
 
 .btn-secondary {
-  background: $white !important;
-  color: $charcoal !important;
-  border-color: $cloud !important;
+  background: #FFFFFF !important;
+  color: #354050 !important;
+  border-color: #D0D5DC !important;
   cursor: pointer;
-  &:hover {
-    color: $charcoal !important;
-    background: $snow !important;
-  }
-  &:active {
-    color: $pebble !important;
-    background: $fog !important;
-  }
-  &:focus {
-    color: $pebble !important;
-    background: $fog !important;
-    outline: 0 !important;
-  }
+}
+.btn-secondary:hover {
+  color: #354050 !important;
+  background: #F9FAFB !important;
+}
+.btn-secondary:active {
+  color: #79879A !important;
+  background: #F0F2F5 !important;
+}
+.btn-secondary:focus {
+  color: #79879A !important;
+  background: #F0F2F5 !important;
+  outline: 0 !important;
 }
 
 .mobile-nav {
@@ -252,163 +214,138 @@ a.account-card {
   z-index: 50;
   display: block;
   width: 100%;
-  background: $black;
-  a {
-    text-decoration: none !important;
-    cursor: pointer;
-    color: $gray;
-    font-size: 12px;
-    float: left;
-    width: 20%;
-    display: inline-block;
-    text-align: center;
-    margin: 0 !important;
-    padding: 8px 0px 5px 0px;
-    &.active {
-      background: $carbon;
-      color: $white;
-    }
-    i {
-      font-size: 23px;
-      display: block;
-      margin: 0 auto;
-      margin-bottom: 2px;
-    }
-  }
+  background: #111822;
+}
+.mobile-nav a {
+  text-decoration: none !important;
+  cursor: pointer;
+  color: #A2ABB9;
+  font-size: 12px;
+  width: 20%;
+  display: inline-block;
+  text-align: center;
+  margin: 0 !important;
+  padding: 8px 0px 5px 0px;
+}
+.mobile-nav a.active {
+  background: #222C3A;
+  color: #FFFFFF;
+}
+.mobile-nav a i {
+  font-size: 23px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 2px;
 }
 
 .fs-18 {
   font-size: 18px !important;
 }
-.fs-22 {
-  font-size: 22px !important;
-}
-
-.bg-snow {
-  background: $snow !important;
-}
 
 .card {
-  border-color: $cloud !important;
+  border-color: #D0D5DC !important;
 }
 
-.text-pebble {
-  color: $pebble !important;
-}
 .text-charcoal {
-  color: $charcoal !important;
+  color: #354050 !important;
 }
 
 .bottom-drawer {
   position: fixed;
   bottom: 56px;
   width: 100%;
-  border-top: 1px solid $cloud;
+  border-top: 1px solid #D0D5DC;
 }
 
 .bg-white {
-  background: $white !important;
-}
-
-.list-group {
-  border-color: $cloud !important;
-}
-.list-group-item {
-  border-color: $cloud !important;
+  background: #FFFFFF !important;
 }
 
 .text-red {
-  color: $red !important;
+  color: #C62931 !important;
 }
 
 .text-green {
-  color: $green !important;
+  color: #00A362 !important;
 }
 .text-link-blue {
-  color: $link-blue !important;
+  color: hsl(215, 60%, 50%) !important;
 }
 
 .form-control {
-  background: $snow;
-  border-color: $cloud !important;
+  background: #F9FAFB;
+  border-color: #D0D5DC !important;
 }
 
 .bd-2-cloud {
-  border: 2px dashed $cloud;
+  border: 2px dashed #D0D5DC;
 }
 .b-1-green {
-  border: 2px solid $green !important;
-} 
+  border: 2px solid #00A362 !important;
+}
 
 .br-8 {
   border-radius: 5px;
 }
 
-.address-radio {
-  .address-label {
-    padding: 1rem;
-    margin-bottom: 0 !important;
-  }
-
-  [type="radio"]:checked,
-  [type="radio"]:not(:checked) {
-    position: absolute;
-    opacity: 0;
-
-    & + label {
-      position: relative;
-      padding-left: 50px;
-      width: 100%;
-      cursor: pointer;
-      line-height: 20px;
-      display: inline-block;
-      color: $charcoal;
-
-      &:before {
-        content: '';
-        position: absolute;
-        left: 1rem;
-        top: 1rem;
-        width: 20px;
-        height: 20px;
-        border: 2px solid $cloud;
-        border-radius: 50%;
-        background: #fff;
-      }
-
-      &:after {
-        content: '';
-        width: 12px;
-        height: 12px;
-        background: $green;
-        position: absolute;
-        top: 20px;
-        left: 20px;
-        border-radius: 50%;
-        transition: all 0.2s ease;
-      }
-    }
-  }
-
-  [type="radio"]:not(:checked) + label:after {
-      opacity: 0;
-      transform: scale(0);
-  }
-
-  [type="radio"]:checked + label:after {
-      opacity: 1;
-      transform: scale(1);
-  }
-
-  [type="radio"]:not(:checked) ~ label p {
-    display: none;
-  }
-
-  [type="radio"]:checked ~ label p {
-    display: unset;
-  }
+.address-radio .address-label {
+  padding: 1rem;
+  margin-bottom: 0 !important;
 }
 
+.address-radio [type="radio"]:checked,
+.address-radio [type="radio"]:not(:checked) {
+  position: absolute;
+  opacity: 0;
+}
+.address-radio [type="radio"]:checked + label,
+.address-radio [type="radio"]:not(:checked) + label {
+  position: relative;
+  padding-left: 50px;
+  width: 100%;
+  cursor: pointer;
+  line-height: 20px;
+  display: inline-block;
+  color: #354050;
+}
+.address-radio [type="radio"]:checked + label:before,
+.address-radio [type="radio"]:not(:checked) + label:before {
+  content: '';
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #D0D5DC;
+  border-radius: 50%;
+  background: #fff;
+}
+.address-radio [type="radio"]:checked + label:after,
+.address-radio [type="radio"]:not(:checked) + label:after {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background: #00A362;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+}
+.address-radio [type="radio"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);
+}
+.address-radio [type="radio"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);
+}
+.address-radio [type="radio"]:not(:checked) ~ label p {
+  display: none;
+}
+.address-radio [type="radio"]:checked ~ label p {
+  display: unset;
+}
 </style>
 
   <!-- bootstrap core css -->
@@ -436,7 +373,7 @@ a.account-card {
         <nav class="navbar navbar-expand-lg custom_nav-container ">
           <a class="navbar-brand" href="index.html">
             <span>
-              Timups
+              Bean Haven
             </span>
           </a>
 
@@ -450,9 +387,9 @@ a.account-card {
                 <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="products.html"> Watches </a>
+                <a class="nav-link" href="products.html"> Products </a>
               </li>
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href="about.html"> About </a>
               </li>
               <li class="nav-item">
@@ -483,103 +420,35 @@ a.account-card {
   </div>
 
   <!-- order section -->
-<div class="container mt-3 mt-md-5">
-  <h2 class="text-charcoal hidden-sm-down">Your Orders</h2>
-  <h5 class="text-charcoal hidden-md-up">Your Orders</h5>
-  <div class="row">
-    <div class="col-12">
-      <div class="list-group mb-5">
-        <div class="list-group-item p-3 bg-snow" style="position: relative;">
-          <div class="row w-100 no-gutters">
-            <div class="col-6 col-md">
-              <h6 class="text-charcoal mb-0 w-100">Order Number</h6>
-              <a href="" class="text-pebble mb-0 w-100 mb-2 mb-md-0">#A915AFLE4FO</a>
-            </div>
-            <div class="col-6 col-md">
-              <h6 class="text-charcoal mb-0 w-100">Date</h6>
-              <p class="text-pebble mb-0 w-100 mb-2 mb-md-0">Oct 4th, 2021</p>  
-            </div>
-            <div class="col-6 col-md"> 
-              <h6 class="text-charcoal mb-0 w-100">Total</h6>
-              <p class="text-pebble mb-0 w-100 mb-2 mb-md-0">$19.54</p> 
-            </div>
-            <div class="col-6 col-md"> 
-              <h6 class="text-charcoal mb-0 w-100">Shipped To</h6>
-              <p class="text-pebble mb-0 w-100 mb-2 mb-md-0">Late M. Night</p> 
-            </div>
-            <div class="col-12 col-md-3">
-              <a href="" class="btn btn-primary w-100">View Order</a>
-            </div>
-          </div>
-          
+  <section class="shop_section layout_padding">
+    <div class="container">
+      <div class="heading_container heading_center">
+        <h2>
+          Your Orders
+        </h2>
+        <p>
+          Review your recent purchases, shipment status, and order summary in one place. Continue shopping if you'd like to add more items.
+        </p>
+      </div>
+      <div class="row mb-4">
+        <div class="col-12 text-center">
+          <a href="products.html" class="btn btn-primary">Continue Shopping</a>
         </div>
-        <div class="list-group-item p-3 bg-white">
-          <div class="row no-gutters">
-            <div class="col-12 col-md-9 pr-0 pr-md-3">
-              <div class="alert p-2 alert-success w-100 mb-0">
-                <h6 class="text-green mb-0"><b>Shipped</b></h6>
-                <p class="text-green hidden-sm-down mb-0">Est. delivery between Oct 5 – Oct 9th, 2021</p>
-              </div>
-            </div>
-            <div class="col-12 col-md-3">
-              <a href="" class="btn btn-secondary w-100 mb-2">Track Shipment</a>
-            </div>
-            <div class="row no-gutters mt-3">
-              <div class="col-3 col-md-1">
-                <img class="img-fluid pr-3" src="https://tanga2.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-images%2Ffc79d08c12dc.jpeg?ixlib=rails-2.1.1&fit=crop&w=500&h=500&auto=format%2Ccompress&cs=srgb&s=c9a50d474788f2658d13b21aa62edd6c" alt="">
-              </div>
-              <div class="col-9 col-md-8 pr-0 pr-md-3">
-                <h6 class="text-charcoal mb-2 mb-md-1">
-                	<img src="images/w6.png" height="100" width="50"> 
-                  <a href="" class="text-charcoal"> 1x Huawei watch GT pro </a>
-                </h6>
-                <ul class="list-unstyled text-pebble mb-2 small">
-                  <li class="">
-                    <b>Color:</b> Yellow
-                  </li>
-                  <li class="">
-                    <b>Size:</b> L
-                  </li>
-                </ul>
-                <h6 class="text-charcoal text-left mb-0 mb-md-2"><b>$599.54</b></h6>
-              </div>
-              <div class="col-12 col-md-3 hidden-sm-down">
-                <a href="" class="btn btn-secondary w-100 mb-2">Buy It Again</a>
-                <a href="" class="btn btn-secondary w-100">Request a Return</a>
-              </div>
-            </div>
-            <div class="row no-gutters mt-3">
-              <div class="col-3 col-md-1">
-                <img class="img-fluid pr-3" src="https://tanga2.imgix.net/https%3A%2F%2Fs3.amazonaws.com%2Ftanga-images%2Ffc79d08c12dc.jpeg?ixlib=rails-2.1.1&fit=crop&w=500&h=500&auto=format%2Ccompress&cs=srgb&s=c9a50d474788f2658d13b21aa62edd6c" alt="">
-              </div>
-              <div class="col-9 col-md-8 pr-0 pr-md-3">
-                <h6 class="text-charcoal mb-2 mb-md-1">
-                	<img src="images/w2.png" height="100" width="50"> 
-                  <a href="" class="text-charcoal">1x Huawei watch GT pro </a>
-                </h6>
-                <ul class="list-unstyled text-pebble mb-2 small">
-                  <li class="">
-                    <b>Color:</b> Blue
-                  </li>
-                  <li class="">
-                    <b>Size:</b> L
-                  </li>
-                </ul>
-                <h6 class="text-charcoal text-left mb-0 mb-md-2"><b>$599.54</b></h6>
-              </div>
-              <div class="col-12 col-md-3 hidden-sm-down">
-                <a href="" class="btn btn-secondary w-100 mb-2">Buy It Again</a>
-                <a href="" class="btn btn-secondary w-100">Request a Return</a>
-              </div>
-            </div>
+      </div>
+      <div id="selectedProductSection" class="row mb-4">
+        <div class="col-12">
+          <div class="alert alert-info text-center mb-0">
+            No product selected yet. Pick an item from <a href="products.html">Products</a> to begin your order.
           </div>
         </div>
       </div>
+      <div class="row">
+    <div class="col-12">
+      <!-- static sample order items removed; selected product appears above when available -->
     </div>
-    
    <div class="col-12 col-md-4">
       <div class="pt-5 pt-md-0">
-        <div class="list-group mb-3">
+        <div id="orderSummarySection" class="list-group mb-3">
           <div class="list-group-item p-3 bg-snow">
             <h6 class="mb-0">Order Summary</h6>
           </div>
@@ -589,7 +458,7 @@ a.account-card {
                 Subtotal
               </div>
               <div class="col-6 text-right text-charcoal">
-                $54.97
+                <span id="summarySubtotal">$0.00</span>
               </div>
             </div>
           </div>
@@ -599,7 +468,7 @@ a.account-card {
                 Sales Tax
               </div>
               <div class="col-6 text-right text-charcoal">
-                $4.30
+                <span id="summaryTax">$0.00</span>
               </div>
             </div>
           </div>
@@ -609,7 +478,7 @@ a.account-card {
                 Shipping
               </div>
               <div class="col-6 text-right text-charcoal">
-                FREE
+                <span id="summaryShipping">FREE</span>
               </div>
             </div>
           </div>
@@ -619,7 +488,7 @@ a.account-card {
                 Gift certificate
               </div>
               <div class="col-4 text-right text-red text-charcoal">
-                -$5.55
+                <span id="summaryDiscount">-$0.00</span>
               </div>
             </div>
           </div>
@@ -629,7 +498,7 @@ a.account-card {
                 <b>Total</b>
               </div>
               <div class="col-4 text-right text-green">
-                <b>$53.65</b>
+                <b><span id="summaryTotal">$0.00</span></b>
               </div>
             </div>
           </div>
@@ -637,7 +506,7 @@ a.account-card {
       </div>
     </div> 
   </div>
-</div>
+</section>
 
 
 
@@ -748,3 +617,4 @@ a.account-card {
 </body>
 
 </html>
+
