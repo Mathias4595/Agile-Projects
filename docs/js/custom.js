@@ -173,12 +173,28 @@ $(document).on('click', '#confirmOrderButton', function(e) {
     }
     var qty = parseInt($('#orderQuantity').val(), 10) || 1;
     var unitPrice = parseFloat(item.price.replace(/[^0-9.]/g, '')) || 0;
+
+    // compute detailed totals (matching sidebar logic)
+    var subtotal = unitPrice * qty;
+    var tax = subtotal * 0.08; // 8% sales tax
+    var discount = 0; // placeholder for gift certificates
+    var shipping = 0; // free shipping by default
+    var total = subtotal + tax - discount + shipping;
+
     item.quantity = qty;
-    item.total = formatCurrency(unitPrice * qty);
+    item.total = formatCurrency(total);
+    item._subtotal = formatCurrency(subtotal);
+    item._tax = formatCurrency(tax);
     saveSelectedOrder(item);
+
+    // update UI
+    updateOrderSummary();
+    updateSidebarSummary(qty, unitPrice);
 
     if ($('#selectedProductSection .order-confirmed-alert').length === 0) {
         $('#selectedProductSection').prepend('<div class="col-12 order-confirmed-alert"><div class="alert alert-success">Your order is ready. Total amount: ' + item.total + '. You can continue to review or change quantity.</div></div>');
+    } else {
+        $('#selectedProductSection .order-confirmed-alert .alert').text('Your order is ready. Total amount: ' + item.total + '. You can continue to review or change quantity.');
     }
 });
 
