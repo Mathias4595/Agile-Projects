@@ -45,10 +45,11 @@ A Gantt chart was created to plan and organise project tasks including tasks req
 Included above is a screenshot of a Gantt chart with the first two stages of the project in place, planning and designing, with a role table included below.
 
 ## Risk Register
-add lil desc here
+Risk Register is made for Iteration 3 to enable the group to be able to anticipate risks that may arise on the project and manage them accordingly before handing over the project. The risks mentioned include risks related to the Products page, GitHub merge issues, navigation links, GitHub Pages, file naming, designing the layout, user testing, and task completion by group members.
 
+The risk register indicates the name of each risk, the probability of it arising, impact, severity level, expected time, trigger, contingency plan, assigned to, and notes.
 
-screenshot here
+![Chart Screenshot](https://github.com/Mathias4595/Agile-Projects/blob/main/images/RiskRegister.png)
 
 
 
