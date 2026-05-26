@@ -44,6 +44,14 @@ A Gantt chart was created to plan and organise project tasks including tasks req
 
 Included above is a screenshot of a Gantt chart with the first two stages of the project in place, planning and designing, with a role table included below.
 
+## Risk Register
+add lil desc here
+
+
+screenshot here
+
+
+
 ## Stakeholder Register
 
 ## Iteration 1
