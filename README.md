@@ -37,8 +37,12 @@ A draft Gantt chart was created and uploaded to the repository and the stakehold
 
 The team also improved collaboration by updating the GitHub repository and reviewing uploaded files.
 
+### Iteration 3
+
+During Iteration 3, the group focused on completing the final website pages and ensuring compatibility between all files uploaded to GitHub. Tasks were divided among team members to complete the Home, Products and Orders pages while also finalising meeting documentation and the Risk Register.
+
 ## Gantt chart
-A Gantt chart was created to plan and organise project tasks including tasks requirments, start dates, end dates and assigned team members. This helps the group manage deadlines and track progress during Iteration 2.
+A Gantt chart was created to plan and organise project tasks including tasks requirements, start dates, end dates and assigned team members. This helps the group manage deadlines and track progress during Iteration 2.
 
 ![Chart Screenshot](https://github.com/Mathias4595/Agile-Projects/blob/main/images/GanttScreenshot.png)
 
@@ -62,7 +66,7 @@ The risk register indicates the name of each risk, the probability of it arising
 | Olivia Cherry | UX Designer | Interface and user experience design | Low | High |Users should be able to navigate between pages easily with a clear interface design | Team meetings / group chat |
 | MD Ilful Hossain | Project Manager | Organising tasks and tracking project progress | High | High | Ensure the project is completed on time and tasks are coordinated | Weekly meetings |
 | Course Tutor | Assessor | Reviews project progress and grading | High | High | Project must meet assessment criteria and include proper documentation | Moodle |
-| End Users | Customers | Use the webiste to browse products and orders | Low | High| Website must be easy to navigate and responsive | User testing/feedback forms |
+| End Users | Customers | Use the website to browse products and orders | Low | High| Website must be easy to navigate and responsive | User testing/feedback forms |
 | GitHub Administrator | Repository Manager | Maintains repository access and version control | High | Low | Repository must remain organised with correct commits and merges |  GitHub issues / commit tracking |
 
 
@@ -108,7 +112,15 @@ Final impressions:
 All three personas represent realistic types of customers and highlight important design considerations, such as clear menus, quick and easy ordering, intuitive navigation and a mobile friendly experience. Three personas will help guide the design and usability of the website as development continues.
 
 ## Live Website
+
+- Home Page:
 https://mathias4595.github.io/Agile-Projects/index.html
+
+- Products Page:
+https://mathias4595.github.io/Agile-Projects/Products.html
+
+- Orders Page:
+https://mathias4595.github.io/Agile-Projects/Orders.html
 
 ## References
 
