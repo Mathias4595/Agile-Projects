@@ -14,6 +14,10 @@ Iteration 3 focuses on completing the website development, testing compatibility
 - [Personas templates](persona%20templates/) - Persona templates and persona files
 - [Stakeholder Register](Stakeholder%20register.docx) - Stakeholder register documentation
 - [GANTT Chart](GANTT%20Chart/) - Gantt chart planning and screenshots
+- [Risk Register](Risk%20Register%20%28piccolo%29.xlsx) - Project risk management documentation
+- [User Acceptance Tests](User%20Acceptance%20Tests.xlsx) - User testing results and feedback
+- [Resource Requirement List](ltaration%202%20Resource%20Needs.docx) - Resource planning and cost estimation
+- [Website Files](docs/) - Final website pages hosted using GitHub Pages
 
 ## Group Meeting Reports
 
