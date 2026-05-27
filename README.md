@@ -21,7 +21,7 @@ Iteration 3 focuses on completing the website development, testing compatibility
 
 ## Group Meeting Reports
 
-Weekly meeting reports for Iteration 1 are recorded using the Group Meeting Report template.
+Weekly meeting reports for Iteration 1 & 2 are recorded using the Group Meeting Report template.
 
 The meeting reports can be found in the [Meeting Reports](./Meeting%20Reports) folder in this repository.
 
