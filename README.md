@@ -59,10 +59,14 @@ The risk register indicates the name of each risk, the probability of it arising
 
 | Stakeholder Name | Title | Role | Power | Interest | Requirements | Communication |
 |-----------------|------|------|------|------|-------------|---------------|
-| Mathias Hansen | Developer | System development and coding | High | Low | System must function correctly and meet project requirements | Weekly team meetings / group chat |
+| Mathias Hansen | Developer | System development and coding | High | Low | Website should meet business requirements, remain professional and support users effectively | Weekly team meetings / group chat |
 | Nitin Nitin | CEO | Project sponsor and decision maker | High | High | Website should support business goals and provide good user experience | Email / progress meetings |
-| Olivia Cherry | UX Designer | Interface and user experience design | Low | High | Interface must be simple, clear and easy for users to navigate | Team meetings / group chat |
+| Olivia Cherry | UX Designer | Interface and user experience design | Low | High |Users should be able to navigate between pages easily with a clear interface design | Team meetings / group chat |
 | MD Ilful Hossain | Project Manager | Organising tasks and tracking project progress | High | High | Ensure the project is completed on time and tasks are coordinated | Weekly meetings |
+| Course Tutor | Assessor | Reviews project progress and grading | High | High | Project must meet assessment criteria and include proper documentation | Moodle |
+| End Users | Customers | Use the webiste to browse products and orders | Low | High| Website must be easy to navigate and responsive | User testing/feedback forms |
+| GitHub Administrator | Repository Manager | Maintains repository access and version control | High | Low | Repository must remain organised with correct commits and merges |  GitHub issues / commit tracking |
+
 
 ## Iteration 2
 
