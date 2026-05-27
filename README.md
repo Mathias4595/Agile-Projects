@@ -1,10 +1,12 @@
-# E-Commerce Website Project – Iteration 1 & 2
+# E-Commerce Website Project – Iteration 1, 2 & 3
 
 This repository contains the documentation and planning work for the development of our e-commerce website. 
 
 Iteration 1 focuses on identifying stakeholders, creating user personas, and organising project tasks using GitHub.
 
 Iteration 2 focuses on project planning, including creating the Gantt chart, assigning tasks, identifying resource requirements and improving collaboration through GitHub.
+
+Iteration 3 focuses on completing the website development, testing compatibility between pages, managing project risks, conducting user acceptance testing and preparing the final project handover through GitHub Pages.
 
 ## Repository Structure
 
