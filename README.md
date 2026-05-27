@@ -55,8 +55,6 @@ The risk register indicates the name of each risk, the probability of it arising
 
 ## Stakeholder Register
 
-## Iteration 1
-
 | Stakeholder Name | Title | Role | Power | Interest | Requirements | Communication |
 |-----------------|------|------|------|------|-------------|---------------|
 | Mathias Hansen | Developer | System development and coding | High | Low | Website should meet business requirements, remain professional and support users effectively | Weekly team meetings / group chat |
@@ -67,19 +65,6 @@ The risk register indicates the name of each risk, the probability of it arising
 | End Users | Customers | Use the webiste to browse products and orders | Low | High| Website must be easy to navigate and responsive | User testing/feedback forms |
 | GitHub Administrator | Repository Manager | Maintains repository access and version control | High | Low | Repository must remain organised with correct commits and merges |  GitHub issues / commit tracking |
 
-
-## Iteration 2
-
-| **Task Name** | **Stakeholder Name** | **Title** | **Power (H/L)** | **Interest (H/L)** | **Requirements** | **Communication** |
-|---|---|---|---|---|---|---|
-| Scope | MD Ilful Hossain | Project Manager | H | H | Project scope must be clearly defined and agreed by all team members | Weekly meetings |
-| User Requirements | MD Ilful Hossain | Project Manager | H | H | All user requirements must be gathered and documented before design begins | Weekly meetings |
-| Stakeholder Concerns | Nitin | CEO | H | H | Websites should support business goals and provide good user experience | Email / Progress meetings |
-| Final Approval | Nitin | CEO | H | H | All planning documents must be approved before design phase begins | Email / Progress meetings |
-| Layout | Olivia Cherry | UX Designer | L | H | Interface must be simple, clear and easy for users to navigate | Team meetings / group chat |
-| Design Wireframes | Olivia Cherry | UX Designer | L | H | Wireframes must reflect user personas and be reviewed by the full group | Team meetings / group chat |
-| User Testing on Wireframes | Mathias Hansen | Developer | H | L | System must function correctly and wireframes must be technically feasible | Weekly team meetings / group chat |
-| Confirming Designs | Nitin | CEO | H | H | Final designs must be approved by CEO before development begins | Email / Progress meetings |
 
 
 ## Resource Requirement List
