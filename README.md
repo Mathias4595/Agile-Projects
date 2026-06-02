@@ -123,10 +123,10 @@ All three personas represent realistic types of customers and highlight importan
 https://mathias4595.github.io/Agile-Projects/index.html
 
 - Products Page:
-https://mathias4595.github.io/Agile-Projects/Products.html
+https://mathias4595.github.io/Agile-Projects/products.html
 
 - Orders Page:
-https://mathias4595.github.io/Agile-Projects/Orders.html
+https://mathias4595.github.io/Agile-Projects/orders.html
 
 ## References
 
